@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổ4--12a5</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+<body>
+  <header>
+    <img class="logo" src="logo.jpg" alt="logo">
+    <div class="group">
+        <ul class="nav">
+            <li><a href="">Trang chủ</a></li>   
+            <li><a href="">Giới thiệu</a></li>   
+            <li><a href="">Trò chơi</a></li>   
+            <li><a href="">Hoạt động</a></li>   
+            <li><a href="">Hình ảnh</a></li>   
+        </ul>
+       <div class="search">
+        <span class="icon">
+            <ion-icon name="search-outline" class="searchBtn"></ion-icon>
+            <ion-icon name="close-circle-outline" class="closeBtn"></ion-icon>
+        </span>
+       </div> 
+    </div>
+    <div class="searchBox">
+        <input type="text" placeholder="Search here...">
+    </div>
+  </header> 
+   <!-- slidehead -->
+  <div class="slideshow-container">
+    <div class="slides" id="slides">
+        <div class="slide">
+        <img src="slide1.webp" alt="slide1">
+        </div>
+        <div class="slide">
+        <img src="slide2.jpg" alt="slide2">
+        </div>
+        <div class="slide">
+        <img src="slide3.jpg" alt="slide3">
+        </div>
+        <div class="scroll-down"></div>
+</div>
+</div>
+<button class="arrow arrow-left" onclick="prevSlide()">←</button>
+        <button class="arrow arrow-right" onclick="nextSlide()">→</button>
+    </div>
+
+   <!-- gioithieu-->
+    <section class="about-section">
+        <h2>Giới Thiệu</h2>
+        <p>
+            Ngày hội 26 tháng 3 tại các trường học ở Việt Nam là một sự kiện ý nghĩa, được tổ chức hàng năm để kỷ niệm ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh (26/3/1931). Đây là dịp để học sinh, sinh viên ôn lại truyền thống vẻ vang của Đoàn, đồng thời tham gia các hoạt động sôi nổi nhằm phát huy tinh thần đoàn kết, sáng tạo và nhiệt huyết của tuổi trẻ. Tại trường Trung học phổ thông số 2 Tuy Phước, ngày hội thường diễn ra với nhiều hoạt động phong phú như hội trại, văn nghệ, thi đua học tập, các trò chơi tập thể, hay dọn dẹp vệ sinh môi trường. Những hoạt động này không chỉ mang lại niềm vui, mà còn giúp các bạn học sinh rèn luyện kỹ năng, ý thức trách nhiệm và tinh thần cống hiến vì cộng đồng, tiếp nối lý tưởng cách mạng của các thế hệ đi trước.
+        </p>
+        <div class="gallery">
+            <img src="1.jpg" alt="Activity 1">
+            <img src="2.jpg" alt="Activity 2">
+            <img src="3.jpg" alt="Activity 3">
+        </div>
+    </section> 
+    <!-- trochoi -->
+    <section class="play-section">
+   <h2>Trò Chơi</h2>
+   <div class="trochoi">
+      <p><span class="name">Bắt Vịt</span><br>Từ 7h30 đến 8h00, tổ Sử - Địa KTPL sẽ phụ trách tổ chức trò chơi tại khu vực ô đất sân trường. Mỗi lớp cần chuẩn bị 02 khăn quàng để tham gia. Trò chơi diễn ra theo hình thức thi đấu giữa các khối, với mỗi lớp cử 02 học sinh (01 nam, 01 nữ) tham gia. Ban tổ chức sẽ yêu cầu học sinh đứng bao quanh khu đất để làm rào chắn vịt. Khi có hiệu lệnh bắt đầu, học sinh nam sẽ đuổi bắt vịt; đội nào bắt được vịt sớm nhất sẽ giành giải Nhất, đội bắt được con thứ hai đạt giải Nhì, và đội bắt được con thứ ba nhận giải Ba.</p>
+      <img   src="batvit.jpg" alt="batvit">
+   </div>
+
+   <div class="trochoi">
+    <img  src="digach.jpg" alt="digach">
+    <p style="margin-right: 50px;"><span class="name">Đi Gạch</span><br>Diễn ra từ 8h00 đến 8h30 tại khu vực ô đất sân trường, do tổ Toán phụ trách. Mỗi lớp cần chuẩn bị 03 viên gạch để tham gia. Luật chơi như sau: Thi đấu theo khối, mỗi lớp cử một cặp nam, nữ tham gia. Khi có hiệu lệnh, bạn nam di chuyển từ vạch xuất phát đến vạch đích chỉ bằng cách bước lên 3 viên gạch, không được chạm chân xuống đất. Đến vạch đích, bạn nữ sẽ tiếp tục di chuyển từ vạch đích về vạch xuất phát cũng trên 3 viên gạch. Đội nào về sớm nhất sẽ giành chiến thắng.</p>
+ </div>
+
+ <div class="trochoi">
+    <p><span class="name">Chuyền Nước</span><br>Từ  8h30 đến 9h00 tại khu vực ô đất sân trường, do tổ Vật lý phụ trách. Mỗi lớp cần chuẩn bị 01 thau nước và 01 chai nhựa (chai nước uống 0 độ để thống nhất). Luật chơi như sau: Thi đấu theo khối, mỗi lớp lập đội gồm 10 thành viên (5 nam, 5 nữ), xếp thành hàng dọc từ vạch xuất phát đến đích. Khi có hiệu lệnh, các thành viên chuyền nước bằng bụm tay từ người đầu tiên đến người cuối cùng, người cuối sẽ đổ nước vào chai. Thứ hạng sẽ dựa trên lượng nước trong chai</p>
+    <img src="chuyennuoc.jpg" alt="chuyennuoc">
+ </div>
+
+ <div class="trochoi">
+    <img src="keoco.jpg" alt="keoco">
+    <p style="margin-right: 50px;"><span class="name">Kéo Co</span><br>Diễn ra từ 9h00 đến 10h15 tại khu vực ô đất sân trường, do tổ Thể dục - Quốc phòng - Tin học phụ trách. Luật chơi như sau: Thi đấu theo khối, các lớp bốc thăm theo cặp trước để thi đấu loại trực tiếp. Mỗi lớp lập đội gồm 5 học sinh nam và 5 học sinh nữ. Ban tổ chức sẽ quy định vạch mức cán đích để xác định đội thắng trong mỗi lượt kéo co. Các đội được khuyến khích mặc trang phục đồng nhất để tham dự, tạo tinh thần đoàn kết và đồng bộ.
+
+    </p>
+ </div>
+
+ <div class="trochoi">
+    <p><span class="name">Mặc Quần</span><br>Từ 10h15 đến 10h45 tại khu vực ô đất sân trường, do tổ Văn và Tiếng Anh phụ trách. Mỗi lớp cần chuẩn bị 1 chiếc quần đùi nam để tham gia. Luật chơi như sau: Thi đấu theo khối, mỗi lớp cử 1 học sinh nam tham gia. Khi có hiệu lệnh, các học sinh bắt đầu mặc quần đùi trong khu vực quy định mà không được dùng tay, có thể nằm, ngồi, lăn, lê để hoàn thành. Đội nào mặc quần nhanh nhất và hoàn thiện nhất sẽ được ban tổ chức công nhận chiến thắng.
+
+    </p>
+    <img src="macquan.jpg" alt="macquan">
+ </div>
+    </section>
+
+    <!-- hoatdong -->
+    <h2>Hoạt Động</h2>
+    <div class="body-hoatdong">
+    <div class="image-container">
+        <!-- Slider wrapper chứa tất cả hình ảnh -->
+        <div class="slider-wrapper">
+          <!-- Thay thế các đường dẫn hình ảnh bằng URL thực tế của bạn -->
+          <img src="taiche1.jpg" alt="Image 1" class="active">
+          <img src="taiche2.jpg" alt="Image 2">
+          <img src="taiche3.jpg" alt="Image 3">
+          <img src="taiche4.jpg" alt="Image 4">
+          <img src="taiche5.jpg" alt="Image 5">
+        </div>
+        <!-- Nút điều hướng trái -->
+        <button class="arrow left">←</button>
+        <!-- Nút điều hướng phải -->
+        <button class="arrow right">→</button>
+      </div>
+      </div>
+      <h3 style="text-align: left; margin-top: -130px; margin-left: 230px; font-size: 23px; ">Trang Phục Tái Chế</h3>
+      <p style="margin-top: 10px;font-size: 18px;
+      color: #2b2a2a;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-align: justify;
+      padding-left: 230px;
+      padding-right: 230px;">Cuộc thi trang phục thời trang tái chế sẽ diễn ra từ 13h30 đến 14h15, do Ban Chấp hành Đoàn trường phụ trách tổ chức. Ban Giám khảo được Đoàn trường mời sẽ đảm nhận việc chấm giải. Sự kiện được tổ chức tại sân khấu chính, dành cho học sinh khối 10 và 11 tham gia. Trang phục biểu diễn cần phù hợp với thuần phong mỹ tục, đạo đức giáo dục và bản sắc văn hóa Việt Nam. Theo thể lệ, mỗi lớp chọn một trang phục dự thi (không bắt buộc cả nam và nữ), thiết kế từ các vật liệu tái chế như nhựa, giấy, bao... Khi lớp trình diễn trên sân khấu, bạn học sinh hỗ trợ sẽ thuyết minh ý nghĩa của trang phục trong 40 giây, với nội dung được chuẩn bị trước trên giấy và đọc từ hậu trường.</p>
+    
+    <div class="container-thanhlich">
+      <div class="top-section">
+          <img src="thanhlich1.jpg" alt="Top Image" class="section-image">
+      </div>
+      <div class="bottom-section">
+          <img src="thanhlich2.jpg" alt="Bottom Image 1" class="section-image">
+      </div>
+      <div class="bottom-section">
+          <img src="thanhlich3.jpg" alt="Bottom Image 2" class="section-image">
+      </div>
+      <div class="bottom-section">
+          <img src="thanhlich4.jpg" alt="Bottom Image 3" class="section-image">
+      </div>
+  </div>
+  <h3 style="text-align: left; margin-top: -130px; margin-left: 230px; font-size: 23px; ">Nét Đẹp Học Đường</h3>
+  <p  style="margin-top: 10px;font-size: 18px;
+  color: #2b2a2a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding-left: 230px;
+  padding-right: 230px;">Cuộc thi “Nét đẹp học đường” diễn ra từ 14h15 đến 16h00 tại sân khấu chính, do BCH Đoàn trường tổ chức, Ban Giám khảo do Đoàn trường mời chấm giải. Mỗi lớp cử 2 thí sinh (1 nam, 1 nữ) tham gia 3 vòng thi: Vòng 1, thí sinh trình diễn trang phục tự chọn (catwalk) lịch thiệp, cung cấp thông tin cá nhân, Ban Giám khảo chọn 10 thí sinh (5 nam, 5 nữ) vào vòng 2. Vòng 2, thí sinh thể hiện tài năng (hát, múa, nhảy…) trong tối đa 5 phút, 8 thí sinh cao điểm nhất vào vòng 3. Vòng 3, thí sinh bốc thăm câu hỏi về vẻ đẹp học sinh, đạo đức, trách nhiệm… và trả lời trong tối đa 2 phút.</p>
+
+ <!-- vannghe -->
+
+ <div class="container-vannghe">
+    <!-- Phần Video -->
+    <div class="video-section">
+        <video id="main-video" controls>
+            <source src="vangnghe.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video HTML.
+        </video>
+    </div>
+
+    <!-- Thanh ảnh -->
+    <div class="thumbnail-bar">
+        <img class="thumbnail active" src="vannghe1.jpg" alt="Video 1" data-video="vangnghe.mp4">
+        <img class="thumbnail" src="vannghe2.jpg" alt="Video 2" data-video="vannghe12a1.mp4">
+        <img class="thumbnail" src="vannghe12a7.jpg" alt="Video 3" data-video="vannghe12a7.mp4">
+        <img class="thumbnail" src="vannghe12a8.jpg" alt="Video 4" data-video="vannghe12a8.mp4">
+        <img class="thumbnail" src="vannghe12a9.jpg" alt="Video 5" data-video="vannghe12a9.mp4">   
+    </div>
+    <div class="content">
+        <h3 style="text-align: left; margin-top: 30px;margin-left: 50px;  font-size: 23px; ">Văn Nghệ K12</h3>
+  <p  style="margin-top: 10px;font-size: 18px;
+  color: #2b2a2a;
+  line-height: 1.6;
+  margin-top: 7px;
+  text-align: justify;margin-left: 50px;margin-right: 50px;">Chương trình thi văn nghệ sẽ diễn ra từ 16h00 đến 17h15, do Đoàn trường phụ trách tổ chức. Ban giám khảo do Đoàn trường mời sẽ đảm nhận việc chấm giải. Sự kiện được tổ chức tại sân khấu chính, dành cho học sinh khối 12 tham gia. Mỗi lớp đăng ký một tiết mục biểu diễn như nhảy, múa,... với nội dung phù hợp với thuần phong mỹ tục, đạo đức giáo dục và bản sắc văn hóa Việt Nam.</p>
+    </div>
+</div>
+
+
+<!-- footer -->
+
+<footer>
+    <!-- Menu -->
+    <div class="footer-section footer-menu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Trò chơi</a></li>
+            <li><a href="#">Hoạt động</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </div>
+
+    <!-- QR Code -->
+    <div class="footer-section qr-code">
+        
+        <!-- Thay bằng link ảnh QR code thật -->
+        <img src="qrpage.png" alt="QR Code">
+    </div>
+
+    <!-- Logo -->
+    <div class="footer-section logo">
+       
+        <!-- Thay bằng link logo thật -->
+        <img src="logo.jpg" alt="Logo">
+        <h3>Tuy Phước 2</h3>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-section social-media">
+        <h3>Theo dõi chúng tôi</h3>
+        <div class="social-icons">
+            <!-- Thay bằng link icon mạng xã hội thật -->
+            <a href="#"><img src="fb.webp" alt="Facebook"></a>
+            <a href="#"><img src="in.png" alt="internet"></a>
+            <a href="#"><img src="zalo.png" alt="zalo"></a>
+            <a href="#"><img src="phone.png" alt="Phone"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 Bản quyền thuộc về Chi đoàn 12A5. Mọi quyền được bảo lưu. Trang web này được thiết kế và phát triển để phục vụ người dùng một cách tốt nhất. Vui lòng không sao chép hoặc sử dụng nội dung mà không có sự cho phép của chúng tôi.</p>
+    </div>
+</footer>
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    let searchBtn = document.querySelector('.searchBtn');
+    let closeBtn = document.querySelector('.closeBtn');
+    let searchBox = document.querySelector('.searchBox');
+
+    searchBtn.onclick = function() {
+        searchBox.classList.add('active');
+        closeBtn.classList.add('active');
+        searchBtn.classList.add('active');
+    }
+
+    closeBtn.onclick = function() {
+        searchBox.classList.remove('active');
+        closeBtn.classList.remove('active');
+        searchBtn.classList.remove('active');
+    }
+
+
+
+    let currentSlide = 0;
+        const slides = document.getElementById('slides');
+        const totalSlides = 3;
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides; // Quay vòng: 0 -> 1 -> 2 -> 0
+            slides.style.transform = `translateX(-${currentSlide * 33.33}%)`;
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides; // Quay vòng: 0 -> 2 -> 1 -> 0
+            slides.style.transform = `translateX(-${currentSlide * 33.33}%)`;
+        }
+
+
+
+       
+
+
+        /* hoatdong */
+        // Lấy các phần tử cần thiết
+    const images = document.querySelectorAll('.slider-wrapper img');
+    const leftArrow = document.querySelector('.arrow.left');
+    const rightArrow = document.querySelector('.arrow.right');
+
+    // Số lượng hình ảnh
+    const totalImages = images.length;
+    let currentIndex = 0;
+
+    // Hàm hiển thị hình ảnh hiện tại
+    function showImage(index) {
+      // Ẩn tất cả hình ảnh
+      images.forEach(img => img.classList.remove('active'));
+      // Hiển thị hình ảnh tại index
+      images[index].classList.add('active');
+    }
+
+    // Hiển thị hình ảnh đầu tiên khi tải trang
+    showImage(currentIndex);
+
+    // Xử lý khi bấm nút mũi tên phải
+    rightArrow.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % totalImages; // Chuyển đến hình ảnh tiếp theo
+      showImage(currentIndex);
+    });
+
+    // Xử lý khi bấm nút mũi tên trái
+    leftArrow.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Chuyển đến hình ảnh trước
+      showImage(currentIndex);
+    });
+
+
+
+    /* video vannghe */
+     // Lấy video và các thumbnail
+     const video = document.getElementById('main-video');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+
+        // Thêm sự kiện click cho từng thumbnail
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                // Xóa class active khỏi tất cả thumbnail
+                thumbnails.forEach(thumb => thumb.classList.remove('active'));
+                // Thêm class active cho thumbnail được click
+                thumbnail.classList.add('active');
+
+                // Lấy URL video từ data-video
+                const videoUrl = thumbnail.getAttribute('data-video');
+                // Cập nhật nguồn video
+                video.src = videoUrl;
+                // Tự động phát video
+                video.play();
+            });
+        });
+
+</script>
+
+
+
+</body>
+</html>
