@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favi.jpg" type="image/x-icon">
+    <title>26 tháng 3 tổ 4</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Tổ<span>-4</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Giới Thiệu</a></li>
+        <li><a href="#about">Lịch trình</a></li>
+        <li><a href="#package">Các trò chơi</a></li>
+        <li><a href="#vannghe">Văn nghệ và thời trang</a></li>
+        <li><a href="#lienhe">Liên hệ</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">12A5 <i class="ri-emotion-happy-fill"></i></button>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <h1>NGÀY HỘI 26 THÁNG 3 CỦA TRƯỜNG TUY PHƯỚC II</h1>
+        <p class="section__description">
+          Hãy cùng đến với lễ kỷ niệm ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh 26/3! Chúng ta sẽ cùng nhau ôn lại truyền thống vẻ vang của Đoàn, đồng thời thể hiện tinh thần nhiệt huyết, sức trẻ của thanh niên Việt Nam
+        </p>
+        <form action="/">
+          <div class="input__group">
+            <label for="location">Địa điểm</label>
+            <input type="text" name="location" placeholder="Tuy Phuoc 2" />
+          </div>
+          <div class="input__group">
+            <label for="date">Ngày diễn ra</label>
+            <input type="text" name="date" placeholder="Ngày 22, tháng 3" />
+          </div>
+          <div class="input__group">
+            <label for="price">Thời gian</label>
+            <input type="text" name="price" placeholder="7h - 17h45" />
+          </div>
+          <button class="btn"><i class="ri-search-line"></i></button>
+        </form>
+      </div>
+      <div class="header__image">
+        <img src="assets/header-1.jpg" alt="header" />
+        <img src="assets/header-2.jpg" alt="header" />
+        <img src="assets/header-3.jpg" alt="header" />
+        <img src="assets/bg.png" alt="bg" />
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="about">
+      <div class="choose__image">
+        <img src="assets/choose.jpg" alt="choose" />
+      </div>
+      <div class="choose__content">
+        <p class="section__subheader">Lịch trình</p>
+        <h2 class="section__header">Các hoạt động <span>trong ngày</span></h2>
+        <ul class="choose__list">
+          <li>
+            <span><i class="ri-sun-fill"></i></span>
+            <div>
+              <h4>Từ 7h - 10h45</h4>
+              <p>
+                Khai mạc và tổ chức các hoạt động giải trí, các trò chơi dân gian.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-restaurant-line"></i></span>
+            <div>
+              <h4>Từ 11h - 13h</h4>
+              <p>
+                Giờ giải lao và tổ chức ăn trưa.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-sun-foggy-fill"></i></span>
+            <div>
+              <h4>Từ 13h30 - 17h45</h4>
+              <p>
+                Tổ chức các cuộc thi văn nghệ, thời trang tái chế, nét đẹp học đường.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container popular__container" id="package">
+      <img src="assets/bg.png" alt="bg" class="popular__bg" />
+      <p class="section__subheader">Các trò chơi</p>
+      <h2 class="section__header">Các trò chơi <span>dân gian</span></h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="assets/popular-1.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.0(34) 😊
+                </div>
+                <h4>Bắt vịt</h4>
+                <p><span>batvit/-</span> trochoidangian</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 8h30 - 9h
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 28
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> TuyPhuoc2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="assets/popular-2.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.5(55) 😘
+                </div>
+                <h4>Đi gạch</h4>
+                <p><span>digach/-</span>trochoidangian</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 9h - 9h30
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 28
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> TuyPhuoc2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="assets/popular-3.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.2(45) 😊
+                </div>
+                <h4>Chuyền nước</h4>
+                <p><span>chuyennuoc/-</span>trochoidangian</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 9h30 - 10h
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 28
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> TuyPhuoc2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="assets/popular-4.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.8(25) 😘
+                </div>
+                <h4>Kéo co</h4>
+                <p><span>keoco/-</span> trochoidangian</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span>10h - 10h30
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 28
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> TuyPhuoc2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="assets/popular-5.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.0(15) 😊
+                </div>
+                <h4>Mặc quần</h4>
+                <p><span>macquan/-</span>trochoidangian</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 10h30 - 11h
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 28
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> TuyPhuoc2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container explore__container">
+      <div class="explore__image">
+        <img src="assets/explore.jpg" alt="explore" />
+      </div>
+      <div class="explore__content">
+        
+        <h2 class="section__header">
+          Thời gian <span> ăn trưa</span>
+        </h2>
+        <p class="section__description">
+          Đây là thời gian các thành viên trong lớp cùng thưởng thức các món ăn đã chuẩn bị trước 
+        </p>
+        <div class="explore__btn">
+          <button class="btn"><i class="ri-restaurant-fill"></i></button>
+        </div>
+        <div class="explore__grid">
+          <div>
+            <h4>12A5</h4>
+            <p style="color: #ffa03f;">Lớp</p>
+          </div>
+          <div>
+            <h4>37/37</h4>
+            <p style="color: #ffa03f;" >Sĩ số</p>
+          </div>
+          <div>
+            <h4>37/37</h4>
+            <p style="color: #ffa03f;">Hiện diện</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="vannghe">
+      <img src="assets/bg.png" alt="bg" class="client__bg" />
+      <p class="section__subheader">Chương trình buổi chiều</p>
+      <h2 class="section__header">Các cuộc thi, <span>văn nghệ</span></h2>
+      <div class="client__card active">
+        <img src="assets/client-1.jpg" alt="client" />
+        <div class="client__content">
+          <h4>Trang phục tái chế</h4>
+          <h5>Recycled Clothes</h5>
+          <p>
+            Cuộc thi tái chế khuyến khích sáng tạo sản phẩm từ vật liệu cũ như nhựa, giấy, vải để bảo vệ môi trường, nâng cao nhận thức và thúc đẩy lối sống bền vững.</p>
+        </div>
+      </div>
+      <div class="client__card">
+        <img src="assets/client-2.jpg" alt="client" />
+        <div class="client__content">
+          <h4 >Nét đẹp học đường</h4>
+          <h5>School Beauty</h5>
+          <p>
+            Nét đẹp học đường là môi trường giáo dục xanh, vui tươi, nơi học sinh học tập, đoàn kết, tôn sư trọng đạo và phát triển nhân cách qua tri thức và hoạt động sôi nổi.</p>
+        </div>
+      </div>
+      <div class="client__card">
+        <img src="assets/client-3.jpg" alt="client" />
+        <div class="client__content">
+          <h4>Cuộc thi văn nghệ</h4>
+          <h5>Photographer</h5>
+          <p>
+            Chúng ta cùng thưởng thức những bài văn nghệ thuần phong mỹ tục của các học sinh K12 trình bày
+          </p>
+        </div>
+      </div>
+      <div class="client__btns">
+        <button class="btn" id="prev">
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button class="btn" id="next">
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </section>
+
+
+    <div class="container-vannghe">
+      <!-- Phần Video -->
+      <div class="video-section">
+          <video id="main-video" controls>
+              <source src="assets/vangnghe.mp4" type="video/mp4">
+              Trình duyệt của bạn không hỗ trợ video HTML.
+          </video>
+      </div>
+      <!-- Thanh ảnh -->
+      <div class="thumbnail-bar">
+          <img class="thumbnail active" src="assets/vannghe1.jpg" alt="Video 1" data-video="assets/vangnghe.mp4">
+          <img class="thumbnail" src="assets/vannghe2.jpg" alt="Video 2" data-video="assets/vannghe12a1.mp4">
+          <img class="thumbnail" src="assets/vannghe12a7.jpg" alt="Video 3" data-video="assets/vannghe12a7.mp4">
+          <img class="thumbnail" src="assets/vannghe12a8.jpg" alt="Video 4" data-video="assets/vannghe12a8.mp4">
+          <img class="thumbnail" src="assets/vannghe12a9.jpg" alt="Video 5" data-video="assets/vannghe12a9.mp4">  
+          <img class="thumbnail" src="assets/vannghe12a2" alt="Video 5" data-video="assets/vannghe12a2.mp4"> 
+      </div>
+  </div>
+  
+
+    
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">Lời cảm ơn</a>
+          </div>
+          <p style="text-align: justify;">
+            Cảm ơn bạn đã dành thời gian xem trang web của chúng tôi. Sự quan tâm của bạn là động lực để chúng tôi phát triển!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/a5.k41"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col" >
+          <h4>Menu</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Giới thiệu</a></li>
+            <li><a href="#about">Lịch trình</a></li>
+            <li><a href="#package">Các trò chơi</a></li>
+            <li><a href="#vannghe">Văn nghệ và thời trang</a></li>
+            <li><a href="#lienhe">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Brand</h4>
+          <div class="footer__col__flex">
+            
+            <img src="assets/doan.png" alt="instagram" />
+            
+            <img src="assets/favi.jpg" alt="instagram" />
+            
+          </div>
+        </div>
+        <div class="footer__col" id="lienhe">
+          <h4>Liên hệ</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +84 367891011
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span> TuyPhuoc2, BinhDinh, VietNam
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span> adminto4@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Bản quyền thuộc To4-12a5 cấm reup dưới mọi hình thức khi chưa được sự cho phép của Admin. Thanks for visit website!
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
